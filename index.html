@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav>
+        <h2 class="header-text">Student Enrollment Form</h2>
+    </nav>
+    <div class="main-container">
+        <div class="left-section">
+            <form id="enroll-form">
+                <div class="form-input">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-input">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-input">
+                    <label for="website">Website:</label>
+                    <input type="url" id="website" name="website">
+                </div>
+                <div class="form-input">
+                    <label for="image-link">Image Link:</label>
+                    <input type="url" id="image-link" name="image-link">
+                </div>
+                <div class="form-input">
+                    <label>Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label>
+                </div>
+                <div class="form-input">
+                    <label>Skills:</label>
+                    <input type="checkbox" id="java" name="skills[]" value="java">
+                    <label for="java">Java</label>
+                    <input type="checkbox" id="html" name="skills[]" value="html">
+                    <label for="html">HTML</label>
+                    <input type="checkbox" id="css" name="skills[]" value="css">
+                    <label for="css">CSS</label>
+                </div>
+                <button type="submit" class="button enroll-button">Enroll Student</button>
+                <button type="reset" class="button clear-button">Clear</button>
+            </form>
+        </div>
+        <div class="col right-section">
+            <h1 style="text-align: center; padding-bottom: 50px;">Enrolled Students</h1>
+            <table id="enroll-table">
+                
+                    <td>
+                        <h3>Description</h2>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </td>
+                    
+                    <td>
+                        <h3>Image</h3>
+                <img src="{{ }}" class="img-fluid">
+                </td>
+            </tr>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

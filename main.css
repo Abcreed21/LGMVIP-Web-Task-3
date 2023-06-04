@@ -1,0 +1,96 @@
+nav {
+    background-color: lightblue;
+}
+
+body {
+    background-color: beige;
+}
+h3 {
+    margin-top: 10px;
+    display: inline-block; 
+    text-align: center;
+    padding-left: 10px;
+}
+li {
+    list-style-type: none;
+}
+
+.header-text {
+    color: white;
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-section,
+.right-section {
+    width: 40%;
+    padding: 10px;
+}
+
+.left-section {
+    background-color: beige;
+}
+
+.form-input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-input label {
+    display: inline-block;
+    margin-right: 1px;
+    width: 100px;
+}
+
+.form-input input[type="radio"],
+.form-input input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+
+#enroll-table {
+    margin-top: 2px;
+    width: 100%;
+    background-color: lightgray;
+    border: 2px solid blue;
+    padding-bottom: 20px;
+    text-overflow: break-word;
+}
+
+#enroll-table th{
+    padding: 1px;
+    border: 1px solid black;
+    
+}
+#enroll-table td {
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+
+#enroll-table th {
+    background-color: lightgray;
+    margin-top: 20px;
+}
+
+.button {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enroll-button {
+    background-color: blue;
+    margin-right: 10px;
+}
+
+.clear-button {
+    background-color: red;
+}
